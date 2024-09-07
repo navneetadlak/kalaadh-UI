@@ -118,7 +118,6 @@ const Homepage = () => {
       </div>
 
       {/* testimonials secction */}
-
       <section className="bg-beige-100 text-center py-16">
         <h2 className="text-2xl font-bold">Testimonials</h2>
         <p className="mt-4">{testimonials[currentTestimonial].text}</p>
@@ -134,13 +133,15 @@ const Homepage = () => {
           <p>{testimonials[currentTestimonial].role}</p>
         </div>
       </section>
-      <section className="text-center py-16 px-4 md:px-8">
+
+      {/* trending outfit section */}
+      <section className="text-center py-16 px-4 md:px-8 ">
         <h2 className="text-2xl font-bold">Trending Outfits</h2>
         <p className="mt-4">
           Intelligentsia migas next level 90s woke ramps. Glossier vape celiac
           tumeric keffiyeh.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-0.1 md:gap-1 mt-8 place-items-center">
           <div className="text-left">
             <img src="https://placehold.co/200x200" alt="Cashmere Tank + Bag" />
             <p className="mt-2">Cashmere Tank + Bag</p>

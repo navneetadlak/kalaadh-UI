@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 import Footer from './Components/Footer';
 import Homepage from './Components/Homepage';
