@@ -34,8 +34,8 @@ const Homepage = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center min-h-screen bg-white">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full mx-48">
+       <div className="flex justify-center items-center min-h-screen w-full mt-14 bg-white p-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full mx-6">
           <div className="relative">
             <img
               src="https://placehold.co/400x600"
@@ -43,8 +43,8 @@ const Homepage = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-25 text-white">
-              <h2 className="text-2xl mb-4">Button Up Shirts</h2>
-              <button className="bg-white text-black py-2 px-4">Buy Now</button>
+              <h2 className="md:text-3xl text-lg mb-4 text-center">Button Up <span className="hidden md:inline"><br /></span>Shirts</h2>
+              <button className="bg-white text-black md:py-4 md:px-6 py-3 px-4">Buy Now</button>
             </div>
           </div>
           <div className="relative">
@@ -54,21 +54,22 @@ const Homepage = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-25 text-white">
-              <h2 className="text-2xl mb-4">Choose your price</h2>
-              <button className="bg-white text-black py-2 px-4">
-                Choose Yours
+              <h2 className="md:text-3xl text-lg mb-4 text-center ">Choose <span className="hidden md:inline"><br /></span> your price</h2>
+              <button className="bg-white text-black md:py-4 md:px-8 py-3 px-6 items-center">
+                Choose<span className="hidden md:inline"><br /></span> Yours
               </button>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center bg-yellow-600 text-white p-8">
-            <h2 className="text-2xl mb-4">Clearance Sales</h2>
-            <p className="mb-4">Up to 70% Off & Free Shipping</p>
-            <button className="bg-white text-black py-2 px-4">
+          <div className="flex flex-col justify-center items-center bg-[#C7AB62] text-white p-8">
+            <h2 className="text-3xl mb-8">Clearance Sales</h2>
+            <p className="mb-14 text-zinc-300">Up to 70% Off & Free Shipping</p>
+            <button className="bg-white text-black py-4 px-6">
               Browse sales
             </button>
           </div>
         </div>
       </div>
+
 
       {/* best selling container */}
       <div className="container mx-auto py-12 px-24">

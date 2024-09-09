@@ -49,7 +49,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen mb-0">
       {/* Image Carousel */}
       <div className="absolute inset-0 z-0">
         <img
